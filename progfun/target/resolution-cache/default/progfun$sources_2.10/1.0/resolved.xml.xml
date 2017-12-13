@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="default"
+		module="progfun$sources_2.10"
+		revision="1.0"
+		status="integration"
+		publication="20170812124931"
+	/>
+	<configurations>
+		<conf name="default" visibility="public" description=""/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="org.scalamacros" name="quasiquotes_2.10" rev="2.0.1" transitive="false" conf="default->master(*),compile,runtime(*),runtime,compile(*),master">
+			<artifact name="quasiquotes_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="serialization_2.10" rev="0.1.2" transitive="false" conf="default->default,compile,runtime,default(compile),master">
+			<artifact name="serialization_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang.modules" name="scala-pickling_2.10" rev="0.10.1" transitive="false" conf="default->master(*),compile,runtime(*),runtime,compile(*),master">
+			<artifact name="scala-pickling_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.10.6" transitive="false" conf="default->master(*),default,compile,runtime(*),runtime,default(compile),compile(*),master" info.apiURL="http://www.scala-lang.org/api/2.10.6/">
+			<artifact name="scala-reflect" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="launcher-interface" rev="1.0.1" transitive="false" conf="default->default,compile,runtime,default(compile),master">
+			<artifact name="launcher-interface" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.json4s" name="json4s-core_2.10" rev="3.2.10" transitive="false" conf="default->master(*),compile,runtime(*),runtime,compile(*),master">
+			<artifact name="json4s-core_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.spire-math" name="jawn-parser_2.10" rev="0.6.0" transitive="false" conf="default->master(*),compile,runtime(*),runtime,compile(*),master">
+			<artifact name="jawn-parser_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.json4s" name="json4s-ast_2.10" rev="3.2.10" transitive="false" conf="default->master(*),compile,runtime(*),runtime,compile(*),master">
+			<artifact name="json4s-ast_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.6" transitive="false" conf="default->default,master(*),compile,runtime(*),runtime,default(compile),compile(*),master" info.apiURL="http://www.scala-lang.org/api/2.10.6/">
+			<artifact name="scala-library" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="template-resolver" rev="0.1" transitive="false" conf="default->default,compile,runtime,default(compile),master">
+			<artifact name="template-resolver" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.spire-math" name="json4s-support_2.10" rev="0.6.0" transitive="false" conf="default->master(*),compile,runtime(*),runtime,compile(*),master">
+			<artifact name="json4s-support_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.thoughtworks.paranamer" name="paranamer" rev="2.6" transitive="false" conf="default->master(*),compile,runtime(*),runtime,compile(*),master">
+			<artifact name="paranamer" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt.ivy" name="ivy" rev="2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4" transitive="false" conf="default->default,compile,runtime,default(compile),master">
+			<artifact name="ivy" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="test-interface" rev="1.0" transitive="false" conf="default->default,compile,runtime,default(compile),master">
+			<artifact name="test-interface" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.jcraft" name="jsch" rev="0.1.50" transitive="false" conf="default->default,compile,runtime,default(compile),master">
+			<artifact name="jsch" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.6" transitive="false" conf="default->default,compile,runtime,default(compile),master,master(*),runtime(*),compile(*)">
+			<artifact name="scala-compiler" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="jline" name="jline" rev="2.14.3" transitive="false" conf="default->default,compile,runtime,default(compile),master">
+			<artifact name="jline" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+	</dependencies>
+</ivy-module>

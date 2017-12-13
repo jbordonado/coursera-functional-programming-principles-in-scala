@@ -1,0 +1,9 @@
+console
+compile
+test
+run
+console
+test
+submit jbordo_casu@outlook.fr h63krGxkgJG4pVft
+;reload; set org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/JORDAN~1/AppData/Local/Temp/sbt-structure.xml
+all {file:/D:/Dev/Functional_Programming_in_Scala/Functional_Programming_Principles_in_Scala/example/}root/products {file:/D:/Dev/Functional_Programming_in_Scala/Functional_Programming_Principles_in_Scala/example/}root/test:products
